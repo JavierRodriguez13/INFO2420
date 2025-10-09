@@ -2,19 +2,99 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<style>
-    td, th{
-        border: 1px solid gray;
+<head>
+<title>HTML 6A</title>
+ <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+      background: orange;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: green;
+      font-weight: bolder;
+    }
+    caption {
+      caption-side: top;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
 </style>
 
+</head>
+<body>
+<div>
+
+</div>
+
 <table>
-    <tr>
-        <th colspan="2">Album</th>
-        <th>Rubber Soul</th>
-        <th>Revolver</th>
-        <th>Sgt. Pepper's</th>
-        <th>The White Album</th>
-        <th>Abbey Road</th>
-    </tr>
+  <caption>Exercise 8-1</caption>
+  <tr>
+    <th>Album</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>Rubber Soul</td>
+    <td>1965</td>
+  </tr>
+  <tr>
+    <td>Revolver</td>
+    <td>1966</td>
+  </tr>
+  <tr>
+    <td>Sgt. Pepper's</td>
+    <td>1967</td>
+  </tr>
+  <tr>
+    <td>The White Album</td>
+    <td>1968</td>
+  </tr>
+  <tr>
+    <td>Abbey Road</td>
+    <td>1969</td>
+  </tr>
+</table>
+
+<table>
+  <caption>Exercise 8-2</caption>
+  <tr>
+    <th>7:00pm</th>
+    <th>7:30pm</th>
+    <th>8:00pm</th>
+  </tr>
+  <tr>
+    <td rowspan="2">The Sunday Night Movie</td>
+    <td>Perry Mason</td>
+    <td>Candid Camera</td>
+  </tr>
+  <tr>
+    <td>What's My Line?</td>
+    <td>Bonanza</td>
+  </tr>
+  <tr>
+    <td colspan="3">The Wackiest Ship in the Army</td>
+  </tr>
+</table>
+
+<table>
+  <caption>Exercise 8-3</caption>
+  <tr>
+    <td rowspan="3">Apples</td>
+    <td rowspan="2">Oranges</td>
+    <td>Pears</td>
+  </tr>
+  <tr>
+    <td>Bananas</td>
+  </tr>
+  <tr>
+    <td colspan="2">Pineapple & Lychees</td>
+  </tr>
 </table>
